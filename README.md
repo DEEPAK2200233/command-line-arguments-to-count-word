@@ -24,11 +24,12 @@ Iterate the list of lines and increment the value of variable (word) each time.
 Run the program by giving "python prgm.py EX12.txt" on the terminal.
 
 ## PROGRAM:
-#Developed By: SWETHA.S
-#Register No: 212222230155
+```
+#Developed By: DEEPAK RAJ S
+#Register No: 212222240023
 import sys
 count = {}
-with open('/content/COMMAND LINE COUNT WORD.txt', 'r') as f:
+with open('word.txt', 'r') as f:
     for line in f:
         for word in line.split():
             if word not in count:
@@ -37,6 +38,7 @@ with open('/content/COMMAND LINE COUNT WORD.txt', 'r') as f:
                 count[word] += 1
 print(count)
 f.close()
+```
 ### OUTPUT:
 ![image](https://github.com/DEEPAK2200233/command-line-arguments-to-count-word/assets/118707676/ae5bb82d-8d20-4317-82a0-b670b8045aa0)
 
