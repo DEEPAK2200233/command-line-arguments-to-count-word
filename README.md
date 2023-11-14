@@ -34,6 +34,7 @@ print(count)
 f.close()
 ```
 ### OUTPUT:
-![image](https://github.com/DEEPAK2200233/command-line-arguments-to-count-word/assets/118707676/ae5bb82d-8d20-4317-82a0-b670b8045aa0)
+![image](https://github.com/DEEPAK2200233/command-line-arguments-to-count-word/assets/118707676/db5039f2-c797-4a8c-92d5-5e8eb3233944)
+
 ## RESULT:
 Thus the program is written to find the word count from the contents of a file using command line arguments.
